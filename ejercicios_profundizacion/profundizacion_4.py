@@ -18,17 +18,22 @@ Enunciado:
 Realice un programa que solicite por consola 3 palabras cualesquiera
 Luego el programa debe consultar al usuario como quiere ordenar las palabras
 1 - Ordenar por orden alfabético (usando el operador ">")
-2 - Ordenar por cantidad de letras (longitud de la palabra (len) y operador ">")
+2 - Ordenar por cantidad de letras (longitud de la palabra
+ (len) y operador ">")
 
-Si se ingresa "1" por consola se deben ordenar las 3 palabras por orden alfabético
-e imprimir en pantalla de la mayor a la menor
+Si se ingresa "1" por consola se deben ordenar las 3 palabras por
+ orden alfabético e imprimir en pantalla de la mayor a la menor
 
-Si se ingresa "2" por consola se deben ordenar las 3 palabras por cantidad de letras
-e imprimir en pantalla de la mayor a la menor
 
-IMPORTANTE: Para ordenar las palabras deben realizar condicionales compuestos o anidados,
-no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos llegado a ese
-contenido.
+Si se ingresa "2" por consola se deben ordenar las 3 palabras
+ por cantidad de letras e imprimir en pantalla de la mayor a la menor
+
+
+IMPORTANTE: Para ordenar las palabras deben realizar condicionales
+ compuestos o anidados,no se busca utilizar bucles o algoritmos 
+ de ordenamiento ya que aún no hemos llegado a ese contenido.
+ 
+
 '''
 
 print('Ejercicios de práctica con cadenas')
@@ -46,7 +51,8 @@ palabra_3 = str(input('Ingrese la tercera palabra:\n'))
 
 # Tipo de orden alfabetico
 
-orden = int(input('Ingrese 1 si quiere ordenar las palabras alfabeticamente o 2 si quiere que se orden por cantidad de letras:\n'))
+orden = int(input('Ingrese 1 si quiere ordenar las palabras alfabeticamente \
+                   o 2 si quiere que se orden por cantidad de letras:\n'))
 
 if orden == 1:
     if palabra_1 > palabra_2 and palabra_1 > palabra_3:
