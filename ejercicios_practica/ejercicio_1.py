@@ -20,20 +20,20 @@ numero_2 = int(input('Ingrese el segundo número:\n'))
 # Imprima en pantalla según corresponda
 
 if numero_1 > numero_2:
-    print('El', numero_1, 'es mayor que', numero_2)
+    print(f"El {numero_1} es mayor que {numero_2}")
 
 else:
-    print('El', numero_2, 'es mayor que', numero_1)
+    print(f"El  {numero_2} es mayor que {numero_1}")
 
 # Verifique si el numero_1 positivo, negativo o cero
 # Imprima el resultado en cada caso
 
 if numero_1 > 0:
-    print('El', numero_1, 'es positivo')
+    print(f"El {numero_1} es positivo")
 elif numero_1 < 0:
-    print('El', numero_1, 'es negativo')
+    print(f"El {numero_1} es negativo")
 elif numero_1 == 0:
-    print('El', numero_1, 'es igual a cero')
+    print(f"El {numero_1} es igual a cero")
 
 # Verifique si el numero_1 es mayor a 0 y menor a 100
 # Imprima en pantalla si se cumple o no la condición
